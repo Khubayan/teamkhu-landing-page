@@ -8,7 +8,13 @@ module.exports = {
       lg: '976px',
       xl: '1440px'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'roboto': ['Roboto'],
+        'opensans': ['Open Sans'],
+        'poppins': ['Poppins'],
+      }
+    },
   },
   plugins: [],
 }
